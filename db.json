@@ -1,0 +1,109 @@
+{
+  "search": {
+    "pagination": {
+        "next": "/searchapi/v1/search?apikey=examplestore&terms=televizao&page=3",
+        "last": "/searchapi/v1/search?apikey=examplestore&terms=televizao&page=26",
+        "first": "/searchapi/v1/search?apikey=examplestore&terms=televizao&page=1",
+        "prev": "/searchapi/v1/search?apikey=examplestore&terms=televizao&page=1"
+    },
+    "size": 503,
+    "products": [
+      {
+        "id": "ABC1234",
+        "url": "www.apikey.com.br/produtos/ABC1234/Titulo+do+Produto",
+        "name": "Titulo do Produto",
+        "images": {
+          "default": "www.apikey.com.br/produtos/ABC1234+default.png",
+          "500x500": "www.apikey.com.br/produtos/ABC1234+small.png"
+        },
+        "status": "AVAIABLE",
+        "oldPrice": 150.99,
+        "price": 129.99,
+        "installment": {
+          "count": 10,
+          "price": 12.99
+        },
+        "details": {
+          "promocao": false,
+          "frete_gratis": true
+        },
+        "skus": [
+          {
+            "sku": "ABC1234-123",
+            "specs": {},
+            "properties": {
+              "oldPrice": 150.99,
+              "price": 129.99,
+              "installment": {
+                "price": 12.99,
+                "count": 10
+              },
+              "status": "AVAIABLE"
+            }
+          }
+        ]
+      }
+    ],
+    "queries": {
+      "processed": "televisao",
+      "original": "Televizao",
+      "normalized": "televizao",
+      "queryType": "corrected"
+    },
+    "quickFilters": [
+      {
+        "link": "https://searchapi.neemu.chaordic.com/v1/query/query/examplestore/televizao&filter=marca:samsung",
+        "name": "Samsung",
+        "image": "www.apikey.com.br/image.png"
+      },
+      {
+        "link": "https://searchapi.neemu.chaordic.com/v1/query/query/examplestore/televizao&filter=marca:lg",
+        "name": "LG",
+        "image": "www.apikey.com.br/image.png"
+      }
+    ],
+    "suggestions": [
+      {
+        "query": "tv led",
+        "link": "https://searchapi.neemu.chaordic.com/v1/query/examplestore/tv+led"
+      },
+      {
+        "query": "tv 4k",
+        "link": "https://searchapi.neemu.chaordic.com/v1/query/examplestore/tv+4k"
+      }
+    ],
+    "banners": [
+      {
+        "header": "<html></html>",
+        "left": "<html></html>"
+      }
+    ],
+    "filters": [
+      {
+        "attribute": "Preco",
+        "type": "continue",
+        "values": [
+          {
+            "size": 1,
+            "unityId": 3,
+            "min": {
+              "value": 12.4,
+              "unity": "rs"
+            },
+            "max": {
+              "value": 12.4,
+              "unity": "rs"
+            },
+            "applyLink": "/searchapi/v1/search?apikey=saraiva&formatproduct=onlyIds&dbg=1&resultsperpage=2&terms=darth+vader&filter=c:2:3:12.4:12.4"
+          },
+          {
+            "label": "Música",
+            "size": 4090,
+            "applyLink": "/searchapi/v1/search?apikey=saraiva&formatproduct=onlyIds&dbg=1&resultsperpage=2&terms=darth+vader&filter=d:1:972",
+            "filters": []
+          }
+        ]
+      }
+    ]
+  }
+}
