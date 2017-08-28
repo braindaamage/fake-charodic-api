@@ -10,6 +10,7 @@
     "products": [
       {
         "id": "ABC1234",
+        "brand": "Brand",
         "url": "www.apikey.com.br/produtos/ABC1234/Titulo+do+Produto",
         "name": "Titulo do Produto",
         "images": {
@@ -45,6 +46,7 @@
       },
       {
         "id": "ABC1234",
+        "brand": "Brand",
         "url": "www.apikey.com.br/produtos/ABC1234/Titulo+do+Produto",
         "name": "Titulo do Produto",
         "images": {
@@ -80,6 +82,7 @@
       },
       {
         "id": "ABC1234",
+        "brand": "Brand",
         "url": "www.apikey.com.br/produtos/ABC1234/Titulo+do+Produto",
         "name": "Titulo do Produto",
         "images": {
@@ -115,6 +118,7 @@
       },
       {
         "id": "ABC1234",
+        "brand": "Brand",
         "url": "www.apikey.com.br/produtos/ABC1234/Titulo+do+Produto",
         "name": "Titulo do Produto",
         "images": {
@@ -150,6 +154,7 @@
       },
       {
         "id": "ABC1234",
+        "brand": "Brand",
         "url": "www.apikey.com.br/produtos/ABC1234/Titulo+do+Produto",
         "name": "Titulo do Produto",
         "images": {
